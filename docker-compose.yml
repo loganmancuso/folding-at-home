@@ -4,7 +4,7 @@ volumes:
 
 services:
   fah:
-    image: secularmetal/folding-at-home
+    image: secularmetal/folding-at-home:latest
     volumes:
       - fahclient:/var/lib/fahclient
       - ./config.xml:/etc/fahclient/config.xml
