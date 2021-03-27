@@ -1,4 +1,4 @@
-FROM centos:7.6
+FROM centos:latest
 
 MAINTAINER Logan Mancuso
 ENV DEBIAN_FRONTEND noninteractive
