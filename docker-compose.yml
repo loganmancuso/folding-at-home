@@ -4,7 +4,7 @@ volumes:
 
 services:
   fah:
-    image: howtocodewell/folding-at-home
+    image: loganmancuso/folding-at-home
     volumes:
       - fahclient:/var/lib/fahclient
       - ./config.xml:/etc/fahclient/config.xml

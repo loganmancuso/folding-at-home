@@ -5,7 +5,7 @@ How To Code Well Team [236997](https://stats.foldingathome.org/team/236997)
 ## Install
 
 ```bash
-$ git clone https://github.com/howToCodeWell/folding-at-home
+$ git clone https://github.com/loganmancuso/folding-at-home
 ```
 
 ```bash
@@ -38,7 +38,7 @@ $ docker-compose down -v --rmi='all'
 $ docker volume create fahclient
 
 # Run container
-$ docker run -v fahclient:/var/lib/fahclient -v ${PWD}/config.xml:/etc/fahclient/config.xml --name=fah -d howtocodewell/folding-at-home
+$ docker run -v fahclient:/var/lib/fahclient -v ${PWD}/config.xml:/etc/fahclient/config.xml --name=fah -d loganmancuso/folding-at-home
 ```
 Monitor the logs
 ```bash
